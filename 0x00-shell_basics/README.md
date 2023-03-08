@@ -9,4 +9,5 @@ ls -lan----------prints the contents of the current directory including hidden f
 mkdir /parentDirectory/newDirectory--------creates the newDirectory inside the parentDirectory.  
 mv /directory/fileName /directory/subdirectory---------------moves the file to the destination directory.  
 rm /directory/subDirectory/fileName----------------deletes the file at the final destination.  
-rm -r /directory/subDirectory-----------------deletes the subDirectory entirely.   
+rm -r /directory/subDirectory-----------------deletes the subDirectory entirely.  
+cd - :-----------changes the working directory to the previous.   
