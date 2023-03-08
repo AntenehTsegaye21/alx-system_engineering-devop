@@ -1,3 +1,3 @@
-Command		Description
+Command---------Description
 ---------------------------
-pwd		prints current working directory
+pwd-------------prints current working directory
