@@ -11,4 +11,5 @@ mv /directory/fileName /directory/subdirectory---------------moves the file to t
 rm /directory/subDirectory/fileName----------------deletes the file at the final destination.  
 rm -r /directory/subDirectory-----------------deletes the subDirectory entirely.  
 cd - :-----------changes the working directory to the previous.  
-ls -al . .. /boot-------------------lists all files including hidden in current directory and the boot directory.    
+ls -al . .. /boot-------------------lists all files including hidden in current directory and the boot directory.  
+file /directory/fileName------------prints the type of the file.   
