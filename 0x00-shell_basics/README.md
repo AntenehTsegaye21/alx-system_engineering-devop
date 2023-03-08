@@ -13,4 +13,5 @@ rm -r /directory/subDirectory-----------------deletes the subDirectory entirely.
 cd - :-----------changes the working directory to the previous.  
 ls -al . .. /boot-------------------lists all files including hidden in current directory and the boot directory.  
 file /directory/fileName------------prints the type of the file.  
-ln -s /directory/linkToFile originalFile-------------------create a symbolic link from the original file to the linkToFile. 
+ln -s /directory/linkToFile originalFile-------------------create a symbolic link from the original file to the linkToFile.  
+cp -u -n match all + fileExtension  parentDirectory-----------------copies all updated and non existing files from the current working directory to the parent directory.   
