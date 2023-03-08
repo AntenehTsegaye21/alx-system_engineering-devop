@@ -10,4 +10,5 @@ mkdir /parentDirectory/newDirectory--------creates the newDirectory inside the p
 mv /directory/fileName /directory/subdirectory---------------moves the file to the destination directory.  
 rm /directory/subDirectory/fileName----------------deletes the file at the final destination.  
 rm -r /directory/subDirectory-----------------deletes the subDirectory entirely.  
-cd - :-----------changes the working directory to the previous.   
+cd - :-----------changes the working directory to the previous.  
+ls -al && ls -al /boot-------------------lists all files including hidden in current directory and the boot directory.    
