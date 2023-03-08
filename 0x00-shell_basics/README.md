@@ -17,4 +17,8 @@ ln -s /directory/linkToFile originalFile-------------------create a symbolic lin
 cp -u -n match all + fileExtension  parentDirectory-----------------copies all updated and non existing files from the current working directory to the parent directory.  
 mv [A-Z] + match all /dir/subDir/-----------------matches all the files beginning with capital letters and moves them to the subDirectory.  
 rm matchAll + ~ :-------------removes all files ending with the ~ character from the current directory.  
-mkdir dir;cd dir;mkdir subDir;cd subDir;mkdir subSubDir--------------creates a tree of directories follwing the sequence.
+mkdir dir
+cd dir
+mkdir subDir
+cd subDir
+mkdir subSubDir--------------creates a tree of directories follwing the sequence.
